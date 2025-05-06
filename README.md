@@ -1,12 +1,12 @@
-### 7 days of 7 different languages
+### 7 days of different languages
 
-Hello! So I recently heard about the book 7 languages in 7 weeks, so i thought i'd give it a go.
+Hello! So I recently heard about the book 7 languages in 7 weeks, so i thought i'd give it a go in a micro level.
 
 I came across a wonderful site called: https://www.codedex.io/home <<-- like honestly its beautiful and while Codecademy and Udemy will always be my go to's, this site is great! 
 
 ### Why?
 
-I want to try 7 different languages in 7 week to get a light feel for each and there differences. I intend to spend at least 3 hrs a day with the language and see how far we get, probably not very, but at the end ill take what i know and dive further!
+I want to try 7 different languages in 7 days to get a light feel for each and there differences. I intend to spend at least 3 hrs a day with the language and see how far we get, probably not very, but at the end ill take what i know and dive further!
 
 ### who are we choosing:
 
