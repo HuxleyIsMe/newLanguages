@@ -30,5 +30,7 @@ I understand this will become important in terms of memory management.
 
 Im realizing that i need to have longer to get into meatier projects and understandings.
 
-However ChatGPT has provided me with a challenge, so i will begin that tomorrow but i'd like to look at memory management after
+im gonna start by bobbing of some code kata challenges with C++
+
+Once ive gotten comfortable ill take on a bigger project.
 
