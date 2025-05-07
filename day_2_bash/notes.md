@@ -12,8 +12,6 @@ Bash is a scripting language enabling us to work directly with our computer.
 
 
 
-
-
 ### Notes - learning bash.
 It is a shell! 
 
@@ -25,10 +23,6 @@ they are both shell scripting languages they have the same conditionals as alway
 like jest it.each, additional arguments passed in are assigned variable names, unlike jest.each in bash this is $1, $2 etc.
 
 hmm my laptop has some auth issues ill have to fix that
-
-https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/
-
-
 
 We need to remember to make our scripts executable, we do this by changing the user permissions: using : $ chmod +x myscript.sh
 
@@ -49,13 +43,27 @@ procedural because we can group it altogether
 
 ### How do I test Bash Scripts
 
-Some people have said to avoid the use of bash scripts due to there complexity however a library called Shunit2 does exist.
+Some people have said to avoid the use of bash scripts due to there complexity however a library called Shunit2 does exist there is also another runner called bats. I opted to go for Bats, because it was more recent and in honesty i liked the name. I made a good choice the docs are really nice to follow and well written.
+
+upon reading the docs i learnt something new, the 
+
+`git submodule`
+
+[git submodules](https://git-scm.com/book/en/v2/Git-Tools-Submodules)
+[more on git submodules](https://www.freecodecamp.org/news/how-to-use-git-submodules/)
+
+I need to take a min, its really cool stuff i haven't heard of before.
+
+Essentially you can host someone elses module git repo as a sub repo in your own repo.
+
 
 ### resources: 
 - [Bash in 100 seconds](https://www.google.com/search?q=whar+can+bash+do&rlz=1C5OZZY_enGB1128GB1128&oq=whar+can+bash+do+&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIICAEQABgWGB4yCAgCEAAYFhgeMgoIAxAAGAgYDRgeMg0IBBAAGIYDGIAEGIoFMg0IBRAAGIYDGIAEGIoFMgcIBhAAGO8F0gEIMjQ3MmowajeoAgCwAgA&sourceid=chrome&ie=UTF-8#fpstate=ive&vld=cid:34865368,vid:I4EWvMFj37g,st:0)
 
 - [Freecode camp bash scripting](https://www.freecodecamp.org/news/shell-scripting-crash-course-how-to-write-bash-scripts-in-linux/)
 
-- [testing bash scripts](https://github.com/kward/shunit2)
+- [testing bash scripts shunit2](https://github.com/kward/shunit2)
+
+- [testing bash scripts bats](https://bats-core.readthedocs.io/en/stable/)
 
 - [Running Bash and Zsh](https://www.geeksforgeeks.org/creating-and-running-bash-and-zsh-scripts/)
