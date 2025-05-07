@@ -2,13 +2,12 @@
 
 Hello! So I recently heard about the book 7 languages in 7 weeks, so i thought i'd give it a go in a micro level.
 
-I came across a wonderful site called: https://www.codedex.io/home <<-- like honestly its beautiful and while Codecademy and Udemy will always be my go to's, this site is great! 
-
 ### Why?
-
 I want to try 7 different languages in 7 days to get a light feel for each and there differences. I intend to spend at least 3 hrs a day with the language and see how far we get, probably not very, but at the end ill take what i know and dive further!
 
 ### who are we choosing:
+
+The contenders: 
 
 - Python
 - C++
@@ -38,3 +37,15 @@ Right ok, At the mo im looking for a fun and a lower level language i will commi
 - scala - whats the hype
 - web assembly - yes please lets do it
 - rust - i have forgotten everything but id like to remember and then i can make a desktop app with JavasScript! 
+
+> :warning: **Tangent** On codeKata i decided to also pick out the languages with the best logos
+
+- COBAL
+- BF
+- Factor
+- OCaml
+- Prolog
+- Groovy
+
+
+I think i might just choose what interests me on the day....

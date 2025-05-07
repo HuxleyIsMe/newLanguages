@@ -27,6 +27,7 @@ I've started by adding the testing library first. I found one called Bats and it
 
 i've also been reminded of `grep` a command I have known of but never actual used: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
 
+Ok so bash is very particular about spaces, i made a couple of errors due to incorecct use of spacing.
 
 ### Scripting or compiled?
 
