@@ -11,7 +11,7 @@ using namespace std;
 
 main()
 {
-    spinWords("I love my fluffy cat pabblebabble");
+    spinWords("my cat is called pabblebabble");
 }
 
 // ok lets break this down here, we are saying const so like something not changing
