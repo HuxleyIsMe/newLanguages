@@ -1,10 +1,10 @@
-## Day 2 - lets get Bashful
+## Day 2 - lets get Bashful :blush:
 
 I want to be a lil more specific this time so lets answer the following: 
 
 Context:
 
-I once made a few shell scripts for stress testing flaky tests and also to add some custom behaviour of stripping out certain comments i had marked to be removed when running git commit - i hate having to get PR feedback to remove comments i've accidently left in the code! 
+I once made a few shell scripts for stress testing flaky tests and also to add some custom behaviour of stripping out certain comments i had marked to be removed when running git commit - i hate having to get PR feedback to remove comments i've accidentally left in the code! 
 
 ### What is bash?
 
@@ -13,12 +13,9 @@ Bash is a scripting language enabling us to work directly with our computer.
 
 
 ### Notes - learning bash.
-It is a shell! 
+It is a shell! Mark files as bash using .sh be sure to include #! followed by a path to run it! she bang at the beginning top of the file 
 
-
-Mark files as bash using .sh be sure to include #! followed by a path to run it! she bang at the beginning top of the file 
-
-Lol ok so turns out i use ZSH i used zsh because i found an awesome Iterm and zsh setup, however this now has me confused... 
+Lol ok so turns out i use ZSH i used ZSH because i found an awesome Iterm2 and ZSH setup, however this now has me confused... Oh great so ZSH has a lot more features including auto complete! 
 they are both shell scripting languages they have the same conditionals as always, but the syntax is a little less familiar, 
 like jest it.each, additional arguments passed in are assigned variable names, unlike jest.each in bash this is $1, $2 etc.
 
@@ -26,6 +23,9 @@ hmm my laptop has some auth issues ill have to fix that
 
 We need to remember to make our scripts executable, we do this by changing the user permissions: using : $ chmod +x myscript.sh
 
+I've started by adding the testing library first. I found one called Bats and its been great so far I have learnt about git submodules, i've now also been given a lil nudge on exit codes 1 being a fail.
+
+i've also been reminded of `grep` a command I have known of but never actual used: https://www.freecodecamp.org/news/grep-command-in-linux-usage-options-and-syntax-examples/
 
 
 ### Scripting or compiled?
@@ -45,7 +45,9 @@ procedural because we can group it altogether
 
 Some people have said to avoid the use of bash scripts due to there complexity however a library called Shunit2 does exist there is also another runner called bats. I opted to go for Bats, because it was more recent and in honesty i liked the name. I made a good choice the docs are really nice to follow and well written.
 
-upon reading the docs i learnt something new, the 
+> :warning: **Tangent** Wanna come down this git submodule hole?
+
+upon reading the docs <mark>i learnt something new</mark>
 
 `git submodule`
 
@@ -54,7 +56,7 @@ upon reading the docs i learnt something new, the
 
 I need to take a min, its really cool stuff i haven't heard of before.
 
-Essentially you can host someone elses module git repo as a sub repo in your own repo.
+Essentially you can host someone elses module git repo as a sub repo in your own repo. I guess its like what you would do if you couldn't or didn't want to work with NPM. I guess this could be really useful on larger architectured projects. 
 
 
 ### resources: 
