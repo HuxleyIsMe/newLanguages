@@ -10,8 +10,6 @@ i did this because i forgot to log a day of programming and that was upsetting, 
 
 '''
 
-
-
 import os
 from dotenv import load_dotenv, dotenv_values 
 import webbrowser
@@ -19,21 +17,17 @@ from pyshortcuts import make_shortcut
 
 load_dotenv() 
 
-
-# URL to open
 url = "https://www.codedex.io/@huxlux/30-nites-of-code?pet=eJPDeBrHnEc91A8VsHeM"
 chrome_path = '/Applications/Google Chrome.app'
 
 chromeController = webbrowser.get('chrome')
 
-# Function to open the URL
 def open_website():
     chromeController.open_new(url)
 
 iconPath = os.getEnv("ICNS_PATHWAY_CODEX")
 
 
-# Creating the shortcut
 make_shortcut(
     script= os.getEnv("SCRIPT_PATHWAY_CODEX"),  # you must place the absolute path to the location of the script, i.e. /Users/bob/project/thisFile.py
     name='CodeDex_pet',
