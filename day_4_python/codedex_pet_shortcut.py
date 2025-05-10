@@ -18,7 +18,6 @@ from pyshortcuts import make_shortcut
 load_dotenv() 
 
 url = "https://www.codedex.io/@huxlux/30-nites-of-code?pet=eJPDeBrHnEc91A8VsHeM"
-chrome_path = '/Applications/Google Chrome.app'
 
 chromeController = webbrowser.get('chrome')
 
