@@ -4,28 +4,12 @@
 Context:
 None i know no python. 
 
+## diving in
 
-### What is python?
+Today I just dove streight into building something here we go: 
 
+<video src="./codedex_open.mov" width="320" height="240" controls></video>
 
+I really liked the CodeDex site! Although the tutorials are a bit too simple for me, I enjoyed the virtual pet/diary feature and the community projects. I'd love to make my own Python virtual pet one day, but for now, I’m starting small as I learn new things.
 
-
-
-### Notes - learning python.
-
-
-### Scripting or compiled?
-
-scripts
-
-### Where does python run?
-
-
-### Which paradigms can I use with python and what is the standard?
-
-
-### How do I test python Scripts
-
-
-
-### resources: 
+I made a simple script that creates a little executable program with a macOS icon, allowing me to open my pet's log directly from my desktop. This way, I’ll have a quick visual reminder and (hopefully) won’t forget to log a day!
