@@ -17,8 +17,8 @@ I want to try 7 different languages in 7 days to get a light feel for each and t
 | Java   | no                 | yes - i won a Google Udacity schoolarship and completed this when i was beginning my intro to coding with android                                | yes      |
 | Rust   | no                 | no                                  | yes i worked on Rustlings program      |
 | swift   | yes ( 2 small tickets i really didn't gel with xcode)                | no                                  | no      |
-| React Native   | no                 | no                                  | no      |
-| Python   | no                 | no                                  | yes     |
+| React Native   | no                 | no                                  | yes      |
+
 
 
 
