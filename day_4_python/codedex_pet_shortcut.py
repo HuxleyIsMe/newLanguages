@@ -11,16 +11,14 @@ i did this because i forgot to log a day of programming and that was upsetting, 
 '''
 
 
-# importing os module for environment variables
+
 import os
-# importing necessary functions from dotenv library
 from dotenv import load_dotenv, dotenv_values 
-# loading variables from .env file
-load_dotenv() 
-
-
 import webbrowser
 from pyshortcuts import make_shortcut
+
+load_dotenv() 
+
 
 # URL to open
 url = "https://www.codedex.io/@huxlux/30-nites-of-code?pet=eJPDeBrHnEc91A8VsHeM"
@@ -37,10 +35,10 @@ iconPath = os.getEnv("ICNS_PATHWAY_CODEX")
 
 # Creating the shortcut
 make_shortcut(
-    script= os.getEnv("SCRIPT_PATHWAY_CODEX"),  # This script will be executed
-    name='CodeDex_pet',    # Shortcut name
+    script= os.getEnv("SCRIPT_PATHWAY_CODEX"),  # you must place the absolute path to the location of the script, i.e. /Users/bob/project/thisFile.py
+    name='CodeDex_pet',
     description='Open CodeDex link',
-    icon=iconPath           # You can specify an icon path here
+    icon=iconPath         # you must place the absolute path to the location of the script, i.e. /Users/bob/project/thisFile.py
 )
 
 # Run the function when the script is executed
