@@ -9,6 +9,7 @@ None i know no python.
 Today I just dove streight into building something here we go: 
 
 <video src="./codedex_open.mov" width="320" height="240" controls></video>
+
 ![Watch the video](https://github.com/HuxleyIsMe/newLanguages/blob/main/day_4_python/thumbnail.png)](https://github.com/HuxleyIsMe/newLanguages/blob/main/day_4_python/codedex_open.mov)
 
 I really liked the CodeDex site! Although the tutorials are a bit too simple for me, I enjoyed the virtual pet/diary feature and the community projects. I'd love to make my own Python virtual pet one day, but for now, I’m starting small as I learn new things.
