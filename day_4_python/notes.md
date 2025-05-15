@@ -1,4 +1,4 @@
-## Day 2 - lets look at Python :snake:
+## Day 4 - lets look at Python :snake:
 
 
 Context:
